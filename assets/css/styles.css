@@ -1,0 +1,28 @@
+@@font-face {
+  font-family: opens;
+  src: url("assets/fonts/OpenSansCondensed-LightItalic.ttf");
+}
+
+html, body{
+  font-family: opens;
+  padding: 0;
+  margin: 0;
+  border:0;
+  width: 100%;
+  height: 100%;
+}
+.wall{
+  background-image: url(assets/images/fondo_luna.jpg);
+  background-color: transparent;
+}
+.presentacion{
+  background-image: -webkit-linear-gradient(bottom, #ce93d8 0%, #f48fb1 50%, #ef9a9a 100%);
+  background-image: -o-linear-gradient(bottom, #ce93d8 0%, #f48fb1 50%, #ef9a9a 100%);
+  background-image: linear-gradient(to top, #ce93d8 0%, #f48fb1 50%, #ef9a9a 100%);
+  border-radius: 10px;
+  color:white;
+  margin:1em;
+}
+.re-presentacion{
+  margin:20px;
+}
