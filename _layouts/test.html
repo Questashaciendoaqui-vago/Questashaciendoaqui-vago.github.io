@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"  media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!---->
+  <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+  <link  type="js" href="assets/js/main.js">
+
+
+  <title>{{site.title}}</title>
+  </head>
+  <body>
+<div id="prueba">
+
+</div>
+
+{% include navbar.html %}
+
+<script>
+
+  function numeroAleatorio(min, max) {
+    return Math.round(Math.random() * (max - min) + min);
+  }
+
+  function randomButton(btn){
+    var btnId =btn.id;
+    var luckyButton = numeroAleatorio(1,4);
+    var botones = document.getElementsByClassName("boton");
+    console.log(luckyButton);
+    console.log(btnId);
+    console.log(botones);
+
+    if (btnId == luckyButton) {
+      for (var i = 1; i <= 4; i++) {
+        console.log(document.getElementById(i));
+        anotherRandomNumber = numeroAleatorio(1,4);;
+        document.getElementById(i).className = document.getElementById(anotherRandomNumber).className;
+      document.getElementById(i).innerHTML = "<i  class='material-icons'>home</i>"
+
+        //document.getElementById(i).href = document.getElementById(anotherRandomNumber).href;
+      }
+
+      /*
+      for (item in botones) {
+        document.getElementById("prueba").innerHTML = item.id;
+        if (btn. == luckyButton) {
+          luckyNumber=numeroAleatorio(1,4);
+          btn.className =
+          //document.getElementById("myDIV").className = "newClassName";
+        }
+      }
+      */
+    }
+  }
+
+</script>
+  </body>
+</html>

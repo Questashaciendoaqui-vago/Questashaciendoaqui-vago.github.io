@@ -1,0 +1,5 @@
+---
+layout: galeria
+title: Galeria
+---
+

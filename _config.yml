@@ -2,13 +2,18 @@ title: Danna Bustamante
 email: dbustamanter@unal.edu.co
 description: asdfghjklñ
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://questashaciendoaqui-vago.github.io/"
 
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+#Colecciones
+collections:
+  - galeria
+  - fotos
 
 # Exclude from processing.
 # The following items will not be processed, by default.

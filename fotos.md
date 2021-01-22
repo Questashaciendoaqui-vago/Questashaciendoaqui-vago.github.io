@@ -1,0 +1,4 @@
+---
+layout: fotos
+title: Fotografia
+---
