@@ -1,0 +1,9 @@
+---
+name: gran obra maestra
+imagen: assets/images/portafolio/fondo8.jpg
+description: increible. algo nuevo y magnifico
+tags:
+  - fuerte
+  - magnifico
+  - poderoso
+---

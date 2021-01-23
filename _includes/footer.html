@@ -1,0 +1,23 @@
+<footer class="page-footer purple lighten-1">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12 ">
+          <h5 class="white-text">Contacto</h5>
+          {% for contacto in site.email %}
+          <p class="grey-text text-lighten-4">{{ contacto }}</p>
+          {% endfor %}
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Redes</h5>
+        <a id="instagram" onclick="randomLink(this)"><img  class="responsive-img" style="width:50px;" src="assets/images/insta.png" alt="instagram"></a>
+        <a id="twitter" onclick="randomLink(this)"><img  class="responsive-img" style="width:50px;" src="assets/images/twitter.png" alt="twitter"></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright purple lighten-3">
+    <div class="container">
+      <i class="material-icons tiny">flash_on</i> 2021 | Made by monkeys on earth <i class="material-icons tiny">flash_on</i>
+      <a class="grey-text text-lighten-4 right" onclick="randomSong()"><i class="material-icons tiny">audiotrack</i>Click here for something else</a>
+    </div>
+  </div>
+</footer>
