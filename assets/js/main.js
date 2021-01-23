@@ -48,7 +48,7 @@ function randomLink(red){
   }else if(luckyNumber <= 20){
     window.open("https://www.wikihow.com/Prepare-a-Pop-Tart");
   }else if(luckyNumber <= 30){
-    window.open("www.youtube.com/watch?v=N1wSUfj2gOs");
+    window.open("https://www.youtube.com/watch?v=N1wSUfj2gOs");
   }else if(luckyNumber <= 40){
     window.open("https://open.spotify.com/show/0oLxdQ9NdBpildzk6DMYeH?si=yxPNzwxARi27ez8-KeUJLQ");
   }else if(luckyNumber <= 50){
@@ -79,6 +79,6 @@ function randomSong(){
   }else if(luckyNumber <= 50){
     window.open("https://www.youtube.com/watch?v=jJPMnTXl63E");
   }else {
-    window.open("www.youtube.com/watch?v=N1wSUfj2gOs");
+    window.open("https://www.youtube.com/watch?v=N1wSUfj2gOs");
   }
 }
