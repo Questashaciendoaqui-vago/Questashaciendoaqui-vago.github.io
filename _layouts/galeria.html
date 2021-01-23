@@ -41,7 +41,7 @@
   align-items: center;
    ">
 
-  {% for item in site.galeria %}
+  {% for item in site.galeria reversed limit: site.numberPosts %}
 
         <div class="row" style="  box-shadow: 0px 2px 10px;">
             <img src="{{ item.imagen }}" class="materialboxed responsive-img">

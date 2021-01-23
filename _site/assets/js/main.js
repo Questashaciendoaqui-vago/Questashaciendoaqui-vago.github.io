@@ -50,16 +50,18 @@ function randomLink(red){
   }else if(luckyNumber <= 30){
     window.open("www.youtube.com/watch?v=N1wSUfj2gOs");
   }else if(luckyNumber <= 40){
-    window.open("https://github.com/Questashaciendoaqui-vago/Questashaciendoaqui-vago.github.io");
+    window.open("https://open.spotify.com/show/0oLxdQ9NdBpildzk6DMYeH?si=yxPNzwxARi27ez8-KeUJLQ");
   }else if(luckyNumber <= 50){
-    window.open("https://translate.google.com/?hl=es&sl=es&tl=en&text=el%20papa%20comiendo%20papas%20con%20pap%C3%A1s&op=translate");
+    window.open("https://m.facebook.com/mco.vivo/videos/976860532810405/?refsrc=https%3A%2F%2Fm.facebook.com%2Fstory.php&_rdr");
+  }else if(luckyNumber <= 60){
+    window.open("https://www.facebook.com/716543878681694/posts/1342364309432978/");
   }else {
     if (linkId == "instagram") {
-      event.preventDefault(); //esto cancela el comportamiento del click
-      window.open("https://www.instagram.com/");
+      window.open("https://instagram.com/dabura_makeup");
     }else if (linkId == "twitter") {
-      event.preventDefault(); //esto cancela el comportamiento del click
-      window.open("https://www.twitter.com/");
+      window.open("https://no_tengo_twiter.com/");
+    }else if(linkId == "youtube"){
+      window.open("https://www.youtube.com/channel/UCn3Ec_LS80tNeDvrKohwsXg");
     }
   }
 }

@@ -1,9 +1,10 @@
 #principal
-title: Danna Bustamante
+title: Danna Bustamante #titulo en la pestaña del navegador
 email:
   - dbustamanter@unal.edu.co
   - pizza@DePeperoni.com
-description: Portafolio de Danna Bustamante
+description: "Portafolio de Danna Bustamante" #
+numberPosts: 10 #Siempre un numero aqui
 
 #uwu
 url: "https://questashaciendoaqui-vago.github.io/"
