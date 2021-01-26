@@ -6,4 +6,4 @@ tags:
   - fuerte
   - magnifico
   - poderoso
----
+----inspirador
