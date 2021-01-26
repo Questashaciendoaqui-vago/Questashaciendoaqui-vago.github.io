@@ -1,6 +1,6 @@
 ---
 layout: page
-image: assets/images/perfil.jpg
+image: portafolio/fotos/IMG_0018.jpg
 title: Soy yo
 ---
 
@@ -11,4 +11,5 @@ title: Soy yo
 Destruyeme si puedes
 
 Perdoname si tienes tiempo"
+
 Y si no largate
