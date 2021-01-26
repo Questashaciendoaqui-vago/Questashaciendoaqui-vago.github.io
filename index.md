@@ -1,6 +1,6 @@
 ---
 layout: page
-image: portafolio/fotos/IMG_0018.jpg
+image: portafolio/fotos/IMG_0018
 title: Soy yo
 ---
 
