@@ -1,7 +1,7 @@
 ---
 layout: page
-image: assets/images/portafolio/IMG_0018.JPG
-title: Soy yo
+image: assets/images/IMG_0018.JPG
+title: Soy yo o eres tu
 ---
 
 "Personas van y vienen
@@ -13,3 +13,8 @@ Destruyeme si puedes
 Perdoname si tienes tiempo"
 
 Y si no largate
+
+Me gusta preguntarme
+¿Que sera de mi?
+Cuando muera,
+Sere capaz de soportare esta agonia
