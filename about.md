@@ -48,3 +48,9 @@ que te voy a entregar lo mejor de mí.
 >  Gutiérrez, S. G.
 
 ---
+## Pero y en donde quedaron los ¿memes?
+
+En donde esta el sentido
+No esta
+
+Esta en los memes
