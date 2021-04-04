@@ -4,7 +4,7 @@ image: assets/images/IMG_0018.JPG
 title: Soy yo o eres tu
 ---
 
-"Personas van y vienen
+align="left" "Personas van y vienen
 
 ¿y yo donde quedo?
 
